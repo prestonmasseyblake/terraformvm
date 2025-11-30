@@ -1,1 +1,26 @@
+# Vagrant
 .vagrant/
+
+# SSH/private keys
+*.pem
+*.key
+*.pub
+*.private
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Sensitive override files
+*.auto.tfvars
+*.auto.tfvars.json
+terraform.tfvars
+terraform.tfvars.json
+
+# Logs and system output
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
